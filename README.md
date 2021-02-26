@@ -1,0 +1,2 @@
+# PizzaShop
+Projeto para estudo
