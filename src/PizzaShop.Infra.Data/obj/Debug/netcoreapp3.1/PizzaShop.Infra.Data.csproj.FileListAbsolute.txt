@@ -1,0 +1,5 @@
+D:\Projetos\Pizzaria\PizzaShop\src\PizzaShop.Infra.Data\bin\Debug\netcoreapp3.1\PizzaShop.Infra.Data.deps.json
+D:\Projetos\Pizzaria\PizzaShop\src\PizzaShop.Infra.Data\bin\Debug\netcoreapp3.1\PizzaShop.Infra.Data.dll
+D:\Projetos\Pizzaria\PizzaShop\src\PizzaShop.Infra.Data\obj\Debug\netcoreapp3.1\PizzaShop.Infra.Data.csprojAssemblyReference.cache
+D:\Projetos\Pizzaria\PizzaShop\src\PizzaShop.Infra.Data\obj\Debug\netcoreapp3.1\PizzaShop.Infra.Data.AssemblyInfoInputs.cache
+D:\Projetos\Pizzaria\PizzaShop\src\PizzaShop.Infra.Data\obj\Debug\netcoreapp3.1\PizzaShop.Infra.Data.AssemblyInfo.cs
