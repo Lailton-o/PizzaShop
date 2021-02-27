@@ -1,6 +1,8 @@
-﻿namespace Pizzaria.Domain.Entities
+﻿using Pizzaria.Infra.Shared.Entities;
+
+namespace Pizzaria.Domain.Entities
 {
-    public class Produto
+    public class Produto : Entity
     {
         public string Nome { get; set; }
         public string Descricao { get; set; }

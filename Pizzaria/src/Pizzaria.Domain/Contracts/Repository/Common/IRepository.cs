@@ -1,11 +1,12 @@
-﻿using System;
+﻿using Pizzaria.Infra.Shared.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
 namespace Pizzaria.Domain.Contracts.Repository.Common
 {
-    public interface IRepository<T> where T : class
+    public interface IRepository<T> : IDisposable where T : Entity
     {
         Task<T> GetById(Guid id);
         Task<T> Single(Expression<Func<T, bool>> predicate);
