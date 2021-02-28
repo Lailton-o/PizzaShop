@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Pizzaria.Domain.Contracts.Repository.Common;
 using Pizzaria.Infra.Data.Context;
+using Pizzaria.Infra.Shared.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Pizzaria.Infra.Data.Repositories.Common
 {
-    public class Repository<T> : IRepository<T> where T : class
+    public class Repository<T> : IRepository<T> where T : Entity
     {
         protected readonly PizzariaContext Db;
         protected readonly DbSet<T> DbSet;
@@ -48,7 +49,6 @@ namespace Pizzaria.Infra.Data.Repositories.Common
         {
             DbSet.Remove(entity);
         }
-
         public void Dispose()
         {
             Db?.Dispose();
